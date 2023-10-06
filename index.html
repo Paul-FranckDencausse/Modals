@@ -2,7 +2,6 @@
 <html>
 <header>
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="JavaScript/script.js">
 </header>
 <main>
 
@@ -26,9 +25,10 @@
             <div class="aubergine">
                 <img src="aubergine.png" alt="aubergine">
             </div>
-            <div class="achetez">
+            <div class="achetez" id="open">
                 <button>J'achète!</button>
-                <div class="modalContainer">
+                <div class="modalContainer displayNone" id="modalContainer">
+                    <button id="close">X</button>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae voluptates porro commodi natus
                         facere repudiandae harum blanditiis soluta vel,
                         quisquam optio veritatis, qui eaque dolorum culpa aperiam cumque impedit id!</p>
@@ -36,6 +36,7 @@
             </div>
 
         </article>
+        <script src="JavaScript/script.js"></script>
     </body>
 </main>
 <footer></footer>
