@@ -1,12 +1,37 @@
+
 *{
     margin: 0 auto;
 }
+nav{
+    background-color: green;
+    color: purple ;
+   
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
 h1{
     color: purple;
+    text-align: center;
 }
 article{
     background-color: purple;
+    padding: 10%;
 }
-img{
-    margin: 0 auto;
+.aubergine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.achetez{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.modalContainer{
+    position: absolute;
+
 }
